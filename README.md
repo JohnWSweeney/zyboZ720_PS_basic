@@ -1,3 +1,3 @@
-# projectTitle
+# Zybo Z7-20 Basic PS
 
-whatDoesItDoQuestionMark.
+Exploring PS-only basics.
