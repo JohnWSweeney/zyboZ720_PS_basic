@@ -266,22 +266,22 @@ proc create_root_design { parentCell } {
     CONFIG.PCW_I2C_RESET_ENABLE {1} \
     CONFIG.PCW_IRQ_F2P_MODE {DIRECT} \
     CONFIG.PCW_MIO_0_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_0_PULLUP {enabled} \
+    CONFIG.PCW_MIO_0_PULLUP {disabled} \
     CONFIG.PCW_MIO_0_SLEW {slow} \
     CONFIG.PCW_MIO_10_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_10_PULLUP {enabled} \
+    CONFIG.PCW_MIO_10_PULLUP {disabled} \
     CONFIG.PCW_MIO_10_SLEW {slow} \
     CONFIG.PCW_MIO_11_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_11_PULLUP {enabled} \
+    CONFIG.PCW_MIO_11_PULLUP {disabled} \
     CONFIG.PCW_MIO_11_SLEW {slow} \
     CONFIG.PCW_MIO_12_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_12_PULLUP {enabled} \
+    CONFIG.PCW_MIO_12_PULLUP {disabled} \
     CONFIG.PCW_MIO_12_SLEW {slow} \
     CONFIG.PCW_MIO_13_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_13_PULLUP {enabled} \
+    CONFIG.PCW_MIO_13_PULLUP {disabled} \
     CONFIG.PCW_MIO_13_SLEW {slow} \
     CONFIG.PCW_MIO_14_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_14_PULLUP {enabled} \
+    CONFIG.PCW_MIO_14_PULLUP {disabled} \
     CONFIG.PCW_MIO_14_SLEW {slow} \
     CONFIG.PCW_MIO_15_IOTYPE {LVCMOS 3.3V} \
     CONFIG.PCW_MIO_15_PULLUP {enabled} \
@@ -398,7 +398,7 @@ proc create_root_design { parentCell } {
     CONFIG.PCW_MIO_4_IOTYPE {LVCMOS 3.3V} \
     CONFIG.PCW_MIO_4_SLEW {slow} \
     CONFIG.PCW_MIO_50_IOTYPE {LVCMOS 1.8V} \
-    CONFIG.PCW_MIO_50_PULLUP {enabled} \
+    CONFIG.PCW_MIO_50_PULLUP {disabled} \
     CONFIG.PCW_MIO_50_SLEW {slow} \
     CONFIG.PCW_MIO_51_IOTYPE {LVCMOS 1.8V} \
     CONFIG.PCW_MIO_51_PULLUP {enabled} \
@@ -418,7 +418,7 @@ proc create_root_design { parentCell } {
     CONFIG.PCW_MIO_8_IOTYPE {LVCMOS 3.3V} \
     CONFIG.PCW_MIO_8_SLEW {slow} \
     CONFIG.PCW_MIO_9_IOTYPE {LVCMOS 3.3V} \
-    CONFIG.PCW_MIO_9_PULLUP {enabled} \
+    CONFIG.PCW_MIO_9_PULLUP {disabled} \
     CONFIG.PCW_MIO_9_SLEW {slow} \
     CONFIG.PCW_MIO_TREE_PERIPHERALS {GPIO#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#GPIO#Quad SPI Flash#GPIO#GPIO#GPIO#GPIO#GPIO#GPIO#GPIO#Enet 0#Enet 0#Enet\
 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#USB Reset#SD 0#UART 1#UART 1#GPIO#GPIO#Enet\
