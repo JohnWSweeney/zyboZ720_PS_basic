@@ -2,6 +2,8 @@
 #include "xparameters.h"
 #include "sleep.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main(void){
 	// define PS MIO LED and Pmod J4 pins.
@@ -30,6 +32,8 @@ int main(void){
 	static u8 idx = 0;
 	static u8 dir = 0;
 	static u8 incr = 1;
+	static u8 rando = 0; // random 0 or 1.
+	srand(666); // seed random number generator.
 
 	while(1){
 		// blink mioLED every 500ms
@@ -44,7 +48,8 @@ int main(void){
 		for(int i=0;i<8;i++){
 			XGpioPs_WritePin(&gpiops, mioPmod[i], 0);
 		}
-		XGpioPs_WritePin(&gpiops, mioPmod[idx], 1);
+		rando = rand() % 2; // generate random 0 or 1.
+		XGpioPs_WritePin(&gpiops, mioPmod[idx], rando);
 
 		if(dir == 0){
 			idx++;
