@@ -1,3 +1,6 @@
+#ifndef PSMIO_U
+#define PSMIO_U
+
 #include "xgpiops.h"
 
 typedef struct{
@@ -7,3 +10,5 @@ typedef struct{
 } mioStruct;
 
 void initMIO(mioStruct *s);
+
+#endif

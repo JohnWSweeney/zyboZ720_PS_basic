@@ -12,4 +12,4 @@ void initMIO(mioStruct *s){
 		 XGpioPs_SetOutputEnablePin(&s->gpioPS, s->mioPmod[i], 1);
 		 XGpioPs_WritePin(&s->gpioPS, s->mioPmod[i], 0);
 	 }
-};
+}
